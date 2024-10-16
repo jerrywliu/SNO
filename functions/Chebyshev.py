@@ -3,7 +3,7 @@
 import jax.numpy as jnp
 from jax import jit
 from functools import partial, reduce
-from jax.config import config
+from jax import config
 from jax.scipy.linalg import solve_triangular
 from jax.lax import dot_general
 config.update("jax_enable_x64", True)
